@@ -1,5 +1,7 @@
 import requests
 import json
+from colorama import init
+init()
 
 term = input('what trademark do you want to search for?\n')
 print(f'\nSearch Term: {term}')
