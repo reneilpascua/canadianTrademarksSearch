@@ -14,6 +14,8 @@ responsejson = response.json()
 recordsTotal = responsejson['recordsTotal']
 print(f'Number of Records: {recordsTotal}')
 
+
+
 print('Titles:')
 i=0
 for result in responsejson['data']:
